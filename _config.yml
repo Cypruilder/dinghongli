@@ -1,10 +1,10 @@
 locale                   : "en-US"
-title                    : "Ding Hongli / Homepage"
+title                    : "Ding Hongli | Homepage"
 title_separator          : "-"
 name                     : "Ding Hongli 丁弘立"
 description              : &description "A clean academic homepage template."
-url                      : "https://cypruilder.github.io"
-baseurl                  : "/dinghongli"
+url                      : "https://www.dinghongli.cn"
+baseurl                  : ""
 repository               : "Cypruilder/dinghongli"
 
 author:
@@ -16,7 +16,7 @@ author:
   employer         : "North China University of Technology"
   uri              :
   email            : "cypruilder@foxmail.com"
-  github : "yitanyi" 
+  github : "Cypruilder" 
   arxiv            :
   googlescholar    :
   impactstory      :
