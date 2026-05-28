@@ -13,12 +13,33 @@
   
       /* ===== News Scroll Box ===== */
     .news-box {
-      max-height: 220px;
+      height: 220px;
       overflow-y: auto;
       padding: 10px 14px;
       background: #f7f7f7;
       border-radius: 10px;
       margin-bottom: 20px;
+      scroll-behavior: smooth;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(202, 111, 111, 0.55) rgba(202, 111, 111, 0.12);
+    }
+
+    .news-box::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .news-box::-webkit-scrollbar-track {
+      background: rgba(202, 111, 111, 0.12);
+      border-radius: 999px;
+    }
+
+    .news-box::-webkit-scrollbar-thumb {
+      background: rgba(202, 111, 111, 0.55);
+      border-radius: 999px;
+    }
+
+    .news-box::-webkit-scrollbar-thumb:hover {
+      background: rgba(202, 111, 111, 0.75);
     }
     
     .news-list {
@@ -91,12 +112,46 @@
 
         color: #5f6368;
     }
+    .publication-card--link {
+        display: flex;
+        text-decoration: none !important;
+        color: inherit !important;
+        cursor: pointer;
+    }
+    .publication-card--link:hover {
+        text-decoration: none !important;
+        transform: translateY(-2px);
+    }
+    .publication-card--link:focus-visible {
+        outline: 2px solid rgba(202, 111, 111, 0.45);
+        outline-offset: 3px;
+    }
+    .publication-card--link > div {
+        width: 100%;
+    }
     .publication-card > div > strong,
     .publication-card > div > div > strong {
         color: #202124;
     }
     .publication-card i {
         color: #6b7280;
+    }
+    .author-highlight {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        text-decoration-thickness: 1.5px;
+    }
+    .pub-description {
+        font-size: 14px;
+        line-height: 1.65;
+    }
+    .pub-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 8px 0 10px;
+        align-items: center;
     }
 
     .pub-badge {
@@ -224,9 +279,11 @@
     }
 
     .pub-list-badge {
-        display: inline-block;
-        margin-right: 6px;
-        padding: 2px 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        padding: 3px 10px;
         border-radius: 999px;
         border: 1px solid rgba(245, 187, 167, 0.75);
         background: #fef5f1;
@@ -236,6 +293,11 @@
         line-height: 1.35;
         vertical-align: 1px;
         white-space: nowrap;
+    }
+    .pub-link-hint {
+        color: #c7774c;
+        font-size: 12px;
+        font-weight: 600;
     }
 
     .full-publication-list .pub-list-title {
@@ -294,6 +356,19 @@
 
         color: #5f6368;
     }
+    .project-card--link {
+        display: flex;
+        text-decoration: none !important;
+        color: inherit !important;
+        cursor: pointer;
+    }
+    .project-card--link:hover {
+        text-decoration: none !important;
+        transform: translateY(-2px);
+    }
+    .project-card--link > div {
+        width: 100%;
+    }
 
     .project-card > div > strong,
     .project-card > div > div > strong {
@@ -306,6 +381,11 @@
 
     .project-card:hover {
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .project-link-hint {
+        color: #c7774c;
+        font-size: 12px;
+        font-weight: 600;
     }
 
       @media (max-width: 720px) {

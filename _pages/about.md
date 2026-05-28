@@ -2,7 +2,7 @@
 permalink: /
 author_profile: true
 stylesheets:
-  - assets/css/home.css
+  - /assets/css/home.css
 redirect_from: 
   - /about/
   - /about.html
@@ -19,7 +19,7 @@ News
     <li><span class="news-date"><em>2025.12</em></span> Won the National First Prize in the National Undergraduate Physics Experiment Competition 🏆🔬</li>
     <li><span class="news-date"><em>2025.10</em></span> Won the National Second Prize in the National College Student Digital Media Technology Works and Creativity Competition 🥈🎥</li>
     <li><span class="news-date"><em>2025.08</em></span> Started my research journey 🔬✨</li>
-    <li><span class="news-date"><em>2025.07</em></span> Won the National First Prize in the Visual Art Design Competition of the Lanqiao Cup 🎨🏅</li>
+    <li><span class="news-date"><em>2025.07</em></span> Won the National Third Prize in the Visual Art Design Competition of the Lanqiao Cup 🎨🏅</li>
     <li><span class="news-date"><em>2025.04</em></span> Crammed scattered Stata & Python for mathematical modeling, wrote data visualization analysis reports 📊💻</li>
     <li><span class="news-date"><em>2025.03</em></span> Scored 563 on CET-6 📝✅</li>
     <li><span class="news-date"><em>2024.12</em></span> Won the First Prize in the National Undergraduate Mathematics Competition (Preliminary) 🧮🥇</li>
@@ -40,11 +40,11 @@ Education
       </div>
       <div class="experience-info">
         <strong>North China University of Technology</strong><br>
-        <em>2023 – Present (expected 2027)</em><br>
-        Bachelor of Engineering in Digital Media Technology<br>
+        <em>2023 – Present</em><br>
+        Major in Digital Media Technology<br>
         <strong>GPA: 94.68/100</strong> · Rank: <strong>1/53</strong><br>
         <strong>Selected top grades:</strong> Calculus (100), University Physics (99), Computer Graphics (99), Discrete Math (99), Game Engine (99), Linear Algebra (98), Database (98), Data Structure (97).<br>
-        <strong>Skills:</strong> Python, C++, ClaudeCode, Trae, MySQL, Milvus, Photoshop, Premiere, Unity, Blender.
+        <strong>Skills:</strong> Python, C++, MySQL, Milvus, Photoshop, Premiere, Unity, Blender.
       </div>
     </div>
   </div>
@@ -64,20 +64,42 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div>
     <div class="pub-title"><strong>ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</strong></div>
-    <div class="pub-authors"><em>Hongli Ding</em><sup>*</sup></div>
-    <div class="pub-status">Submitted to a CCF-N class conference (under review)</div>
-    <div class="pub-description">Proposed a multi-agent screenplay writing system with dual‑axis recursive task decomposition, inspired by professional screenwriting workflows.</div>
-    <div class="pub-links"><b><i style="color:#83a1c7;">Under review &nbsp;</i></b> <a href=""><em>[preprint]</em></a></div>
+    <div class="pub-badges">
+      <span class="pub-list-badge">Ongoing</span>
+    </div>
+    <div class="pub-authors"><em><span class="author-highlight">Hongli Ding</span>, Ying Li, Xingquan Cai, Caiyu Yang, Guangzi Zhang, Zikang Song</em><sup>*</sup></div>
+    <div class="pub-description">Proposed a multi-agent screenplay writing system with context-aware biaxial recursive task decomposition, inspired by professional screenwriting workflows, to improve the quality of screenplay generation.</div>
+    <div class="pub-links"><span class="pub-link-hint"></span></div>
   </div>
 </div>
 
-<div class="publication-card" data-category="all"> 
+<div class="publication-card publication-card--link" data-category="all" role="link" tabindex="0" onclick="window.open('https://doi.org/10.1109/LSP.2026.3691635', '_blank', 'noopener')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); window.open('https://doi.org/10.1109/LSP.2026.3691635', '_blank', 'noopener');}"> 
+  <div>
+    <div class="pub-title"><strong>Robust Vehicle and Pedestrian Detection in Adverse Weather via a Weather-Aware Transformer</strong></div>
+    <div class="pub-badges">
+      <span class="pub-list-badge">Published</span>
+      <span class="pub-list-badge">CCF-C</span>
+      <span class="pub-list-badge">Journal</span>
+    </div>
+    <div class="pub-authors"><em>Xingquan Cai, Jiawei Tang, <span class="author-highlight">Hongli Ding</span>, Yuanxiang Zhao, Ying Li</em><sup>*</sup></div>
+    <div class="pub-status">Accepted by <em>IEEE Signal Processing Letters</em> (CCF-C)</div>
+    <div class="pub-description">Proposes RWT-DETR, a robust weather-aware Transformer detection model consisting of a Strip-Oriented Feature Gating (SOFG) module, a Symbolic Attention Decomposition (SAD) mechanism, and an Adaptive Multi-scale Feature Gating (AMFG) module, to improve the vehicle and pedestrian detection performance under adverse weather conditions.</div>
+    <div class="pub-links"><span class="pub-link-hint"></span></div>
+  </div>
+</div>
+
+<div class="publication-card publication-card--link" data-category="all" role="link" tabindex="0" onclick="window.open('https://doi.org/10.1145/3777577.3777603', '_blank', 'noopener')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); window.open('https://doi.org/10.1145/3777577.3777603', '_blank', 'noopener');}"> 
   <div>
     <div class="pub-title"><strong>MHTA-RAG: Mental Disorder Knowledge Support System Based on Markdown Heading Tree Augmented Retrieval‑Augmented Generation</strong></div>
-    <div class="pub-authors"><em>Hongli Ding</em><sup>*</sup></div>
+    <div class="pub-badges">
+      <span class="pub-list-badge">Published</span>
+      <span class="pub-list-badge">EI</span>
+      <span class="pub-list-badge">Conference</span>
+    </div>
+    <div class="pub-authors"><em><span class="author-highlight">Hongli Ding</span>, Jie Li</em><sup>*</sup></div>
     <div class="pub-status">Accepted by <em>2025 6th International Symposium on Artificial Intelligence for Medical Sciences (ISAIMS 2025)</em> (EI)</div>
-    <div class="pub-description">Introduced a hierarchical BM25 + RAPTOR hybrid retrieval strategy to improve domain‑specific RAG performance for mental health literature.</div>
-    <div class="pub-links"><b><i style="color:#83a1c7;">Published &nbsp;</i></b> <a href="https://doi.org/10.1145/3777577.3777603" target="_blank"><em>[DOI:10.1145/3777577.3777603]</em></a> <a href=""><em>[paper]</em></a></div>
+    <div class="pub-description">Introduced a hierarchical BM25 + RAPTOR hybrid retrieval strategy based on Markdown heading tree to improve domain‑specific RAG performance for mental health literature.</div>
+    <div class="pub-links"><span class="pub-link-hint"></span></div>
   </div>
 </div>
 
@@ -86,18 +108,26 @@ Publications
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">Under review</span>
+      <span class="pub-list-badge">Ongoing</span>
       <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
-      <span class="pub-list-authors"><strong>Hongli Ding</strong></span>
-      <span class="pub-list-links"><a href="">[preprint]</a></span>
+      <span class="pub-list-authors"><strong><span class="author-highlight">Hongli Ding</span>, Ying Li, Xingquan Cai, Caiyu Yang, Guangzi Zhang, Zikang Song</strong></span>
+      <span class="pub-list-links"><a href=""></a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Published</span>
+      <span class="pub-list-title">Robust Vehicle and Pedestrian Detection in Adverse Weather via a Weather-Aware Transformer</span><br>
+      <span class="pub-list-authors"><strong>Xingquan Cai, Jiawei Tang, <span class="author-highlight">Hongli Ding</span>, Yuanxiang Zhao, Ying Li</strong></span>
+      <span class="pub-list-links">
+  <a href="https://doi.org/10.1109/LSP.2026.3691635" target="_blank">[Journal article]</a>
+      </span>
     </li>
     <li>
       <span class="pub-list-badge">Published</span>
       <span class="pub-list-title">MHTA-RAG: Mental Disorder Knowledge Support System Based on Markdown Heading Tree Augmented Retrieval‑Augmented Generation</span><br>
-      <span class="pub-list-authors"><strong>Hongli Ding</strong></span>
+      <span class="pub-list-authors"><strong><span class="author-highlight">Hongli Ding</span>, Jie Li</strong></span>
       <span class="pub-list-links">
-  <a href="https://dl.acm.org/doi/10.1145/3777577.3777603" target="_blank">[paper]</a>
-</span>
+  <a href="https://dl.acm.org/doi/10.1145/3777577.3777603" target="_blank">[Conference paper]</a>
+      </span>
     </li>
   </ul>
 </div>
@@ -128,7 +158,7 @@ Publications
 
 Projects
 --------
-<div class="project-card" data-category="project"> 
+<div class="project-card project-card--link" data-category="project" role="link" tabindex="0" onclick="window.open('https://github.com/Cypruilder/RuoYi-Community-Starter', '_blank', 'noopener')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); window.open('https://github.com/Cypruilder/RuoYi-Community-Starter', '_blank', 'noopener');}"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/ruoyi_demo.png" alt="RuoYi-Community-Starter demo" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
@@ -140,14 +170,14 @@ Projects
       </i><br>
       A community information management system built on the RuoYi framework, featuring a four‑level data model: community → grid → building → resident. Extended with a community data visualization dashboard, an AI assistant, and custom SVG icon integration. Comes with detailed documentation – ideal for learning RuoYi development.
       <br> 
-      <b><i style="color:#83a1c7;">Spring Boot · Vue 3 · MyBatis · Redis · JWT · ECharts &nbsp;</i></b> 
-      <a href="https://github.com/Cypruilder/RuoYi-Community-Starter"><em>[GitHub]</em></a> 
+      <b><i style="color:#83a1c7;">Spring Boot · Vue 3 · MyBatis · Redis · ECharts &nbsp;</i></b>
+      <span class="project-link-hint"><em></em></span>
     </div>
   </div> 
 </div>
 
 
-<div class="project-card" data-category="project"> 
+<div class="project-card project-card--link" data-category="project" role="link" tabindex="0" onclick="window.open('https://github.com/Cypruilder/RogueLike-CardGame-Tutorials', '_blank', 'noopener')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); window.open('https://github.com/Cypruilder/RogueLike-CardGame-Tutorials', '_blank', 'noopener');}"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/roguelike_tutorial.png" alt="RogueLike Card Game Tutorials" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
@@ -159,8 +189,8 @@ Projects
       </i><br>
       A comprehensive tutorial series for anyone who wants to learn how to build a RogueLike card game like Slay the Spire, based on the principles of TCG Engine. Covers card system design, combat mechanics, map systems, UI design, and more. Packaged software and tutorials are included – ideal for beginners looking to understand the architecture of a mature card game.
       <br> 
-      <b><i style="color:#83a1c7;">Unity · TCG Engine · Tutorial &nbsp;</i></b> 
-      <a href="https://github.com/Cypruilder/RogueLike-CardGame-Tutorials"><em>[GitHub]</em></a> 
+      <b><i style="color:#83a1c7;">Unity · Roguelike · Tutorial &nbsp;</i></b>
+      <span class="project-link-hint"><em></em></span>
     </div>
   </div> 
 </div>
@@ -191,28 +221,21 @@ Awards
 --------
 **Honors & Scholarships**  
 - **National Endeavor Scholarship** (2023–2025, two consecutive years)  
-- **University Top-three Student** 
-- **College-level Excellent League Member** 
+- **University-level Merit Student** 
 - **2-Star Running Master** 
 
 **National-Level Competition Awards**  
 - **First Prize** – National Undergraduate Physics Experiment Competition  
 - **First Prize** – National College Mathematics Competition (Non-Math Category A)  
 - **Second Prize** – National College Student Digital Media Technology Works and Creativity Competition  
-- **Third Prize** – Lanqiao Cup (Visual Art Design)  
+- **Third Prize** – Lanqiao Cup Visual Art Design Competition  
 - **Third Prize** – National English Competition for College Students  
 
 **Provincial-Level Competition Awards (Beijing)**  
-- **Second Prize** – Lanqiao Cup (Software Individual Competition)  
+- **Second Prize** – Lanqiao Cup Software Individual Competition  
 - **Third Prize** – SFLEP·Word Master Cup  
 - **Third Prize** – China College Computer Design Competition  
 
-
-Services 
---------
-- **Class President** (Digital Media Tech Class 23-2): led 10+ class meetings, twice awarded “University Advanced Class Collective”.  
-- **Student Union Officer** (Sports Department): organized university‑wide football and volleyball leagues.  
-- **Volunteer**: 273.5 hours accumulated, participating in community services and large‑scale events.
 
 
 

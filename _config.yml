@@ -1,7 +1,7 @@
 locale                   : "en-US"
-title                    : "Ding Hongli | Homepage"
+title                    : "Hongli Ding | Homepage"
 title_separator          : "-"
-name                     : "Ding Hongli 丁弘立"
+name                     : "Hongli Ding · 丁弘立"
 description              : &description "A clean academic homepage template."
 url                      : "https://www.dinghongli.cn"
 baseurl                  : ""
@@ -9,7 +9,7 @@ repository               : "Cypruilder/dinghongli"
 
 author:
   avatar           : "1.jpg"
-  name             : "Ding Hongli 丁弘立"
+  name             : "Hongli Ding · 丁弘立"
   pronouns         :
   bio              : "He/Him"
   location         : "Beijing, China"
