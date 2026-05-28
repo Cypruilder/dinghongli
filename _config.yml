@@ -3,9 +3,9 @@ title                    : "Ding Hongli / Homepage"
 title_separator          : "-"
 name                     : "Ding Hongli 丁弘立"
 description              : &description "A clean academic homepage template."
-url                      : "https://Cypruilder.github.io"
-baseurl                  : ""
-repository               : "Cypruilder/Cypruilder.github.io"
+url                      : "https://cypruilder.github.io"
+baseurl                  : "/dinghongli"
+repository               : "Cypruilder/dinghongli"
 
 author:
   avatar           : "1.jpg"
